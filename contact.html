@@ -298,29 +298,27 @@ c0 88 -3 105 -17 110 -9 4 -165 6 -347 6 l-330 -2 -1 69 0 68 370 5 c204 3
         <div class="info-row"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><h4>Service area</h4><span>Fort Myers, Cape Coral, Naples &amp; surrounding SWFL</span></div></div>
       </div>
 
-      <div class="form-card reveal" data-form>
-        <div data-form-inner>
-          <h3>Schedule your service</h3>
-          <p>Tell us what's going on and we'll reach out fast — usually within the hour.</p>
-          <div class="form-row">
-            <div class="field"><label for="cname">Name</label><input id="cname" name="name" type="text" placeholder="Jane Smith"></div>
-            <div class="field"><label for="cphone">Phone</label><input id="cphone" name="phone" type="tel" placeholder="(239) 555-0100"></div>
-          </div>
-          <div class="form-row">
-            <div class="field"><label for="cemail">Email</label><input id="cemail" name="email" type="email" placeholder="you@email.com"></div>
-            <div class="field"><label for="cservice">Service needed</label>
-              <select id="cservice" name="service"><option>AC repair</option><option>Emergency (no cooling)</option><option>New installation</option><option>Maintenance / tune-up</option><option>Ductwork</option><option>Air quality</option><option>Commercial HVAC</option></select>
-            </div>
-          </div>
-          <div class="field"><label for="cmsg">What's happening?</label><textarea id="cmsg" name="message" placeholder="e.g. AC is running but blowing warm air since this morning…"></textarea></div>
-          <button class="btn btn-red" style="width:100%;justify-content:center" data-submit>Request my appointment</button>
-          <div class="form-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> No spam. We only use your info to schedule your service.</div>
-        </div>
-        <div class="form-success" data-form-success>
-          <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></div>
-          <h3>Request received!</h3>
-          <p>Thanks — we'll call you shortly. Need us right now? <a href="tel:2392235506" style="color:var(--blue);font-weight:600">Call 239-223-5506</a>.</p>
-        </div>
+      <div class="form-card reveal" style="padding:18px">
+        <h3 style="padding:10px 12px 0">Schedule your service</h3>
+        <p style="padding:0 12px">Tell us what's going on and we'll reach out fast &mdash; usually within the hour.</p>
+        <iframe
+          src="https://api.leadconnectorhq.com/widget/form/fK0Zo05krhns3Ihz03vy"
+          style="width:100%;height:757px;border:none;border-radius:8px;display:block"
+          id="inline-fK0Zo05krhns3Ihz03vy"
+          data-layout="{'id':'INLINE'}"
+          data-trigger-type="alwaysShow"
+          data-trigger-value=""
+          data-activation-type="alwaysActivated"
+          data-activation-value=""
+          data-deactivation-type="neverDeactivate"
+          data-deactivation-value=""
+          data-form-name="Website Form"
+          data-height="757"
+          data-layout-iframe-id="inline-fK0Zo05krhns3Ihz03vy"
+          data-form-id="fK0Zo05krhns3Ihz03vy"
+          title="Website Form"
+          loading="lazy">
+        </iframe>
       </div>
     </div>
   </div>
@@ -594,6 +592,8 @@ c0 88 -3 105 -17 110 -9 4 -165 6 -347 6 l-330 -2 -1 69 0 68 370 5 c204 3
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="contact.html">Get In Touch</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; SMS Policy</a></li>
         </ul>
       </div>
       <div class="foot-contact">
@@ -604,7 +604,7 @@ c0 88 -3 105 -17 110 -9 4 -165 6 -347 6 l-330 -2 -1 69 0 68 370 5 c204 3
       </div>
     </div>
     <div class="foot-bottom">
-      <span>&copy; 2026 Florida Aire. All rights reserved.</span>
+      <span>&copy; 2026 Florida Aire. All rights reserved. &nbsp;&bull;&nbsp; <a href="privacy-policy.html">Privacy Policy</a> &nbsp;&bull;&nbsp; <a href="terms.html">Terms &amp; SMS Policy</a></span>
       <span>Serving Fort Myers &bull; Cape Coral &bull; Naples &amp; surrounding SWFL</span>
     </div>
   </div>
@@ -616,6 +616,7 @@ c0 88 -3 105 -17 110 -9 4 -165 6 -347 6 l-330 -2 -1 69 0 68 370 5 c204 3
   <a href="#" onclick="document.querySelector('.form-card').scrollIntoView({behavior:'smooth'});return false;" class="btn btn-navy">Book</a>
 </div>
 
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
 <script src="app.js"></script>
 <script src="studio.js" defer></script>
 </body>
